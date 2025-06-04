@@ -29,6 +29,15 @@ Simply load this module after loading Highlight.js. You'll use the minified vers
 
 For more details of the usage see [Highlight.js main page](https://github.com/highlightjs/highlight.js#highlightjs).
 
+### Usage with TypeScript import from npm package
+
+```typescript
+import hljs from 'highlight.js';
+
+import tsql from 'highlight.js-tsql';
+hljs.registerLanguage('tsql', tsql);
+```
+
 ## Authors
 
 [David Simner](https://github.com/DavidSimner), [Greg Smulko](https://github.com/Greg-Smulko)
