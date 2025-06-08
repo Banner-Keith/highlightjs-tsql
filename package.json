@@ -2,7 +2,7 @@
   "name": "highlight.js-tsql",
   "description": "Syntax highlighting for T-SQL.",
   "main": "src/languages/tsql.js",
-  "types": ".types/tsql.d.ts",
+  "types": "types/index.d.ts",
   "keywords": [
     "highlight",
     "syntax",
@@ -23,9 +23,11 @@
   "files": [
     "dist/tsql.min.js",
     "dist/tsql.es.min.js",
-    "dist/ssms.min.css"
+    "dist/ssms.min.css",
+    "src/languages/tsql.js",
+    "types/index.d.ts"
   ],
-  "devDependencies": {
-    "highlight.js": "^11.6.0"
+  "dependencies": {
+    "highlight.js": "^11.x"
   }
 }

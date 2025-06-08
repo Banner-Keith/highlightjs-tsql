@@ -33,9 +33,12 @@ For more details of the usage see [Highlight.js main page](https://github.com/hi
 
 ```typescript
 import hljs from 'highlight.js';
-
 import tsql from 'highlight.js-tsql';
-hljs.registerLanguage('tsql', tsql);
+
+hljs.registerLanguage("tsql", tsql);
+
+// You can import the css here or into a bundler if you use one.
+import 'highlight.js-tsql/dist/ssms.min.css';
 ```
 
 ## Authors
